@@ -12,7 +12,7 @@ const Index: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="min-h-screen relative overflow-hidden"
+      className="min-h-screen height-[99vh] relative overflow-hidden"
     >
       <ParticleBackground />
       <CustomCursor />
