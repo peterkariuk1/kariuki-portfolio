@@ -9,9 +9,9 @@ const Hero: React.FC = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="text-center mb-16"
+        className="text-center mb-7"
       >
-        <h1 className="text-6xl md:text-8xl font-light text-white mb-8 tracking-tight">
+        <h1 className="text-6xl md:text-8xl font-light text-white mb-5 tracking-tight">
           Hi, I'm{" "}
           <span className="bg-gradient-to-r from-amber-100 via-yellow-300 to-amber-200 bg-[length:300%_300%] bg-clip-text text-transparent animate-gradient-flow font-semibold">
             Kariuki
@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-5 left-1/2 transform -translate-x-1/2"
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}
