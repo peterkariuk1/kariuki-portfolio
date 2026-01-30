@@ -46,7 +46,7 @@ const ContactSidebar: React.FC = () => {
       initial={{ opacity: 0, x: -50 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1, delay: 0.8 }}
-      className="fixed left-6 top-1/2 transform -translate-y-1/2 z-20 flex flex-col space-y-6"
+      className="fixed left-6 top-1/2 transform -translate-y-1/2 z-20 flex flex-col space-y-4"
     >
       {contactItems.map((item, index) => (
         <motion.a
