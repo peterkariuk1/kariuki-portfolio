@@ -1,9 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Phone, Mail, Linkedin } from "lucide-react";
+import { Phone, Mail, Linkedin, Download } from "lucide-react";
 
 const ContactSidebar: React.FC = () => {
   const contactItems = [
+    {
+      icon: <Download size={20} />,
+      href: "tel:+254112529019",
+      label: "Temporary Download",
+      color: "hover:text-blue-400",
+    },
     {
       icon: <Phone size={20} />,
       href: "tel:+254112529019",
