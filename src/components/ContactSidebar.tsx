@@ -6,7 +6,7 @@ const ContactSidebar: React.FC = () => {
   const contactItems = [
     {
       icon: <Download size={20} />,
-      href: "tel:+254112529019",
+      href: "https://expo.dev/accounts/kariuk1/projects/meshsos/builds/ac3c9d2c-d072-45b1-92a1-d4958d69d0e4",
       label: "Temporary Download",
       color: "hover:text-blue-400",
     },
